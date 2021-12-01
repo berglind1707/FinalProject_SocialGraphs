@@ -1,4 +1,4 @@
-baseURL = 'http://berglind1707.github.io/FinalProject_SocialGraphs'
+baseURL = 'https://berglind1707.github.io/FinalProject_SocialGraphs/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "ananke"

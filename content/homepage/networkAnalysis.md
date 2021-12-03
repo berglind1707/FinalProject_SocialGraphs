@@ -90,10 +90,3 @@ Did you see the picture above? I can show you how to go from
 
 #### Community comparison
 
----
-
-
-
-Want to learn more about my services?
-
-Check out [this page](services) I created. It carries a lot more details...

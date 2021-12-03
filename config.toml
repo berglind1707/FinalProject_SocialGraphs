@@ -1,5 +1,5 @@
 baseURL = 'https://berglind1707.github.io/FinalProject_SocialGraphs/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "ananke"
+title = "Harry Potter - Final Project, Social Graphs and Interactions"
+theme = "hugo-scroll"
 publishDir = "docs"

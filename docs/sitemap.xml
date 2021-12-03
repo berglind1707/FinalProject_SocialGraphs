@@ -2,9 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://berglind1707.github.io/FinalProject_SocialGraphs/</loc>
+  </url><url>
     <loc>https://berglind1707.github.io/FinalProject_SocialGraphs/categories/</loc>
   </url><url>
-    <loc>https://berglind1707.github.io/FinalProject_SocialGraphs/</loc>
+    <loc>https://berglind1707.github.io/FinalProject_SocialGraphs/services/</loc>
   </url><url>
     <loc>https://berglind1707.github.io/FinalProject_SocialGraphs/tags/</loc>
   </url>

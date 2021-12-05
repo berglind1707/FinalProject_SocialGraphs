@@ -27,7 +27,9 @@ This is not an easy task. You will likely have to pay money for this. You know w
 
 #### Network analysis
 
-#### Wordclouds
+#### Wordcloud
+
+![Hi there](images/gryffindor_wordcloud.png)
 
 #### Characterbased sentiment analysis
 
@@ -43,7 +45,8 @@ Did you see the picture above? I can show you how to go from
 
 #### Network analysis
 
-#### Wordclouds
+#### Wordcloud
+![Hi there](images/slytherin_wordcloud.png)
 
 #### Characterbased sentiment analysis
 
@@ -60,7 +63,8 @@ Did you see the picture above? I can show you how to go from
 
 #### Network analysis
 
-#### Wordclouds
+#### Wordcloud
+![Hi there](images/huffelpuff_wordcloud.png)
 
 #### Characterbased sentiment analysis
 
@@ -75,9 +79,24 @@ Did you see the picture above? I can show you how to go from
 
 #### Network analysis
 
-#### Wordclouds
+#### Wordcloud
+![Hi there](images/rawenclaw_wordcloud.png)
 
 #### Characterbased sentiment analysis
 
 #### Community comparison
 
+
+## Characters without houses
+
+Did you see the picture above? I can show you how to go from
+
+
+#### Network analysis
+
+#### Wordcloud
+![Hi there](images/withoutHouses_wordcloud.png)
+
+#### Characterbased sentiment analysis
+
+#### Community comparison

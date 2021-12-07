@@ -10,13 +10,7 @@ That is the important part, right? You want to know what I can do for you. This 
 
 ## Harry Potter extended network analysis
 
-
 ![total_network](images/plots_updated/total_network.png)
-
-
-
-
-
 
 
 Wow. That was nice, right? Well, call me and let us talk.
@@ -26,83 +20,4 @@ Wow. That was nice, right? Well, call me and let us talk.
 
 ---
 
-## Gryffindor
-Almennt um gryffindor hér
 
-
-#### Network analysis
-![total_network](images/plots_updated/gryffindor_network.png)
-
-#### Wordcloud
-
-![Hi there](images/gryffindor_wordcloud.png)
-
-#### Characterbased sentiment analysis
-
-#### Community comparison
-
-
----
-
-## Slytherin
-
-Almennt um slytherin hér
-
-#### Network analysis
-![total_network](images/plots_updated/slytherin_network.png)
-
-#### Wordcloud
-![Hi there](images/slytherin_wordcloud.png)
-
-#### Characterbased sentiment analysis
-
-#### Community comparison
-
----
-
-## Hufflepuff
-
-Almennt um Hufflepuff
-
-#### Network analysis
-![total_network](images/plots_updated/hufflepuff_network.png)
-
-#### Wordcloud
-![Hi there](images/huffelpuff_wordcloud.png)
-
-#### Characterbased sentiment analysis
-
-#### Community comparison
-
----
-
-## Rawenclaw
-
-Almennt um Rawenclaw hér
-
-#### Network analysis
-
-![total_network](images/plots_updated/ravenclaw_network.png)
-
-#### Wordcloud
-![Hi there](images/rawenclaw_wordcloud.png)
-
-#### Characterbased sentiment analysis
-
-#### Community comparison
-
----
-
-## Characters without houses
-Almennt um characters without houses hér
-
-#### Network analysis
-
-![total_network](images/plots_updated/no_house_network.png)
-
-#### Wordcloud
-![Hi there](images/withoutHouses_wordcloud.png)
-
-#### Characterbased sentiment analysis
-
-#### Community comparison

@@ -23,6 +23,14 @@ the emphasis is mostly on their positive traits they are far from being perfect.
 #### Network analysis
 ![total_network](images/plots_updated/gryffindor_network.png)
 
+![house_plots](images/plots_updated/Gryffindor_in_dist.png)
+
+![house_plots](images/plots_updated/Gryffindor_out_dist.png)
+
+![house_plots](images/plots_updated/Gryffindor_loglog_dist.png)
+
+![house_plots](images/plots_updated/Gryffindor_degree_dist.png)
+
 #### Wordcloud
 
 ![Hi there](images/gryffindor_wordcloud.png)
@@ -45,6 +53,15 @@ not the case for all of them.
 #### Network analysis
 ![total_network](images/plots_updated/slytherin_network.png)
 
+![house_plots](images/plots_updated/Slytherin_in_dist.png)
+![house_plots](images/plots_updated/Slytherin_out_dist.png)
+![house_plots](images/plots_updated/Slytherin_loglog_dist.png)
+![house_plots](images/plots_updated/Slytherin_degree_dist.png)
+
+
+
+
+
 #### Wordcloud
 ![Hi there](images/slytherin_wordcloud.png)
 
@@ -63,6 +80,12 @@ that the fewest dark vizards belonged to that house.
 #### Network analysis
 ![total_network](images/plots_updated/hufflepuff_network.png)
 
+![house_plots](images/plots_updated/Hufflepuff_in_dist.png)
+![house_plots](images/plots_updated/Hufflepuff_out_dist.png)
+![house_plots](images/plots_updated/Hufflepuff_loglog_dist.png)
+![house_plots](images/plots_updated/Hufflepuff_degree_dist.png)
+
+
 #### Wordcloud
 ![Hi there](images/hufflepuff_wordcloud.png)
 
@@ -70,7 +93,7 @@ that the fewest dark vizards belonged to that house.
 
 ---
 
-### Rawenclaw
+### Ravenclaw
 
 Students who were chosen into Ravenclaw house were known for their wisdom, intelligence, and willingness to learn.
 With that being said many of Ravenclaw members were very ambitious and talented students. There were rumors from
@@ -80,6 +103,12 @@ backstab each other, and students from other houses, in order to get higher grad
 #### Network analysis
 
 ![total_network](images/plots_updated/ravenclaw_network.png)
+![house_plots](images/plots_updated/Ravenclaw_in_dist.png)
+![house_plots](images/plots_updated/Ravenclaw_out_dist.png)
+![house_plots](images/plots_updated/Ravenclaw_loglog_dist.png)
+![house_plots](images/plots_updated/Ravenclaw_degree_dist.png)
+
+
 
 #### Wordcloud
 ![Hi there](images/ravenclaw_wordcloud.png)
@@ -96,6 +125,11 @@ Almennt um characters without houses hér
 #### Network analysis
 
 ![total_network](images/plots_updated/no_house_network.png)
+![house_plots](images/plots_updated/NoHouse_in_dist.png)
+![house_plots](images/plots_updated/NoHouse_out_dist.png)
+![house_plots](images/plots_updated/NoHouse_loglog_dist.png)
+![house_plots](images/plots_updated/NoHouse_degree_dist.png)
+
 
 #### Wordcloud
 ![Hi there](images/withoutHouses_wordcloud.png)

@@ -10,11 +10,8 @@ That is the important part, right? You want to know what I can do for you. This 
 
 ## Harry Potter extended network analysis
 
-![Hi there](images/plots_thordur/total_network.png)
 
-<img src="images/plots_thordur/total_network.png" width="800">
-
-
+![total_network](images/plots_thordur/total_network.png)
 
 Wow. That was nice, right? Well, call me and let us talk.
 

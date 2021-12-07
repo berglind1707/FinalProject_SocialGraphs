@@ -13,6 +13,8 @@ That is the important part, right? You want to know what I can do for you. This 
 
 ![total_network](images/plots_thordur/total_network.png)
 
+![total_network](images/plots_thordur/Total_in_dist.png)
+
 Wow. That was nice, right? Well, call me and let us talk.
 
 #### Distribution

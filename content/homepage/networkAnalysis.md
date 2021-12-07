@@ -43,8 +43,13 @@ Let's now take a look at the degree distributions of the network. We will look a
 As expected, the vast majority of the nodes has a degree close to 0, while very few nodes have a high degree. The x-axis is cut off at 60, for better visualisation, although some nodes have a lot higher degree.
 
 
+### Sentiment of communities and characters
 
----
+![total_network](images/comm_sent/char_dist_TotalNetwork.png)
+![total_network](images/comm_sent/comm_dist_TotalNetwork.png)
+
+
+
 
 #### General House Information
 

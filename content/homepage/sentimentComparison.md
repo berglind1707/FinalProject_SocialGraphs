@@ -3,9 +3,10 @@ title: "Sentiment Comparison"
 weight: 4
 header_menu: true
 ---
-Almennt um hvað við ætlum að gera hér og taka fram að við erum að bera saman bækur vs myndir 
-![Jane Doe](images/flyingletters.jpg)
 
+This section will cover sentiment analysis of the Harry Potter books and movies along with a comparison of the two. The sentiment was calculated per page and averaged per chapter in the books but calculated per scene for the movies. The sentiment is calculated using the method-based VADER sentiment analysis, the reasoning is the same as for the section above.  The overall interest here correlation of the storylines in the books vs. the movies based on sentiment and the storyline tracking of each story. Due to the high number of scenes per movie, the story tracking was based on the book sentiment analysis. This makes visualization more accessible for the end user.
+
+---
 
 ![Jane Doe](images/sentiment/movievsbooksent.png)
 

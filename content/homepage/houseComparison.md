@@ -65,6 +65,10 @@ Overall the word cloud manages to sum both occupations and major story occurrenc
 
 #### Sentiment of communities and characters
 
+![total_network](images/comm_sent/char_dist_Gryffindor.png)
+![total_network](images/comm_sent/comm_dist_Gryffindor.png)
+
+
 
 
 ---
@@ -115,6 +119,9 @@ Overall the word cloud manages to sum up the identities of Slytherin along with 
 
 #### Sentiment of communities and characters
 
+![total_network](images/comm_sent/char_dist_Slytherin.png)
+![total_network](images/comm_sent/comm_dist_Slytherin.png)
+
 
 ---
 
@@ -154,6 +161,9 @@ JK. Rowling wrote the stories with Gryffindor characters as main characters and 
 These words confirm the minor role Hufflepuff had in the Harry Potter stories and clearly state the major role JK. Rowling gave them in the Fantastic Beasts. This is assumption is supported by the fact that the place where the only Hufflepuff teacher teaches its course. The only Hufflepuff character that played a big role in the stories was Cedric Diggory who was killed in the same story as he was introduced.
 
 #### Characterbased sentiment analysis
+
+![total_network](images/comm_sent/char_dist_Hufflepuff.png)
+![total_network](images/comm_sent/comm_dist_Hufflepuff.png)
 
 ---
 
@@ -199,6 +209,8 @@ Other noticeable words in the Ravenclaw word cloud:
 
 #### Sentiment of communities and characters
 
+![total_network](images/comm_sent/char_dist_Ravenclaw.png)
+![total_network](images/comm_sent/comm_dist_Ravenclaw.png)
 
 
 ---
@@ -239,7 +251,11 @@ This word cloud also holds some characters that we weren't able to grasp such as
 
 #### Sentiment of communities and characters
 
+![total_network](images/comm_sent/char_dist_no_house.png)
+![total_network](images/comm_sent/comm_dist_no_house.png)
 
 ---
 
 ### Conclusion to sentiment analysis and community dections within houses
+
+![total_network](images/sent_comp.png)

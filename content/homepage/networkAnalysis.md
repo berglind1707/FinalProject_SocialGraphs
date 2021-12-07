@@ -11,9 +11,13 @@ That is the important part, right? You want to know what I can do for you. This 
 ## Harry Potter extended network analysis
 
 
-![total_network](images/plots_thordur/total_network.png)
+![total_network](images/plots_updated/total_network.png)
 
-![total_network](images/plots_thordur/Total_in_dist.png)
+
+
+
+
+
 
 Wow. That was nice, right? Well, call me and let us talk.
 
@@ -23,11 +27,11 @@ Wow. That was nice, right? Well, call me and let us talk.
 ---
 
 ## Gryffindor
-
-This is not an easy task. You will likely have to pay money for this. You know what - let us look at a nice picture first.
+Almennt um gryffindor hér
 
 
 #### Network analysis
+![total_network](images/plots_updated/gryffindor_network.png)
 
 #### Wordcloud
 
@@ -42,10 +46,10 @@ This is not an easy task. You will likely have to pay money for this. You know w
 
 ## Slytherin
 
-Did you see the picture above? I can show you how to go from
-
+Almennt um slytherin hér
 
 #### Network analysis
+![total_network](images/plots_updated/slytherin_network.png)
 
 #### Wordcloud
 ![Hi there](images/slytherin_wordcloud.png)
@@ -56,14 +60,12 @@ Did you see the picture above? I can show you how to go from
 
 ---
 
-## Huffelpuff
+## Hufflepuff
 
-Did you see the picture above? I can show you how to go from
-
-
-
+Almennt um Hufflepuff
 
 #### Network analysis
+![total_network](images/plots_updated/hufflepuff_network.png)
 
 #### Wordcloud
 ![Hi there](images/huffelpuff_wordcloud.png)
@@ -76,10 +78,11 @@ Did you see the picture above? I can show you how to go from
 
 ## Rawenclaw
 
-Did you see the picture above? I can show you how to go from
-
+Almennt um Rawenclaw hér
 
 #### Network analysis
+
+![total_network](images/plots_updated/ravenclaw_network.png)
 
 #### Wordcloud
 ![Hi there](images/rawenclaw_wordcloud.png)

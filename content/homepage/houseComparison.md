@@ -47,17 +47,17 @@ the emphasis is mostly on their positive traits they are far from being perfect.
 
 Gryffindor holds many of the main characters that are stereotyped as daring, brave, and warm felt personalities, the word cloud manages to emphasize some of the describing words and keywords/names in the storyline.
 
-   **1. Scrabbers and Crookshanks**: Two of the major housepets within the house; Scrabbers is Ron's cat and Crookshanks is Hermonies cat.
+   **1. Scabbers and Crookshanks**: Two of the major housepets within the house; Scabbers is Ron's rat and Crookshanks is Hermonies cat.
    
    **2. Signup and Sheet**: Refers to the signup sheet for Dumbledore's Army, everyone that wanted to join his side needed to sign the sheet. This indicates that a major of Gryffindor characters were loyal to Dumbledore's Army.
    
    **3. Grawp**: A giant and half-brother of Hagrid, he was frequently picked on by other giants for his short height. He correlated with Gryffindor, he has a major role in *The Order of the Phoenix* and takes place in the battle of Hogwarts as a part of Dumbledore's Army.
    
-   **4. Cursebreaker**: Occupational title used by witches and wizards who removed, countered, or broke curses placed on objects or places for a living. Indicating that a partGryffindor graduates worked as curse breakers.
+   **4. Cursebreaker**: Occupational title used by witches and wizards who removed, countered, or broke curses placed on objects or places for a living. Indicating that a part of Gryffindor graduates worked as curse breakers.
    
-   **5. Locket**: One of the Horcruxes eight Lord Voldemort split his soules into. For him to be killed eternally all eight needed to be destroyed first.
+   **5. Locket**: One of the Horcruxes eight Lord Voldemort split his soule into. For him to be killed eternally all eight needed to be destroyed first.
    
-   **6. Shrieking shack**: Abandoned house in Hogsmeade. For many years, villagers thought it was haunted because they often heard screams coming from inside, and Albus Dumbledore encouraged the rumor, as he was the one who commissioned it to Remus Lupin so that he would have a place for his monthly transformations into a werewolf. Harry Potter and Hermione Granger were led into the shack when Sirius Black, as a dog, dragged Ron off into the underground passage, located underneath the Whomping Willow While inside the shack Harry then found out who had betrayed his parents and Scabbers' true identity was revealed. The Shrieking Shack was later used by Lord Voldemort and several of his Death Eaters in 1998 as a hideout during the Battle of Hogwarts. Severus Snape was killed by Nagini in this very building
+   **6. Shrieking shack**: Abandoned house in Hogsmeade. For many years, villagers thought it was haunted because they often heard screams coming from inside, and Albus Dumbledore encouraged the rumor, as he was the one who commissioned it to Remus Lupin so that he would have a place for his monthly transformations into a werewolf. Harry Potter and Hermione Granger were led into the shack when Sirius Black, as a dog, dragged Ron off into the underground passage, located underneath the Whomping Willow. While inside the shack Harry then found out who had betrayed his parents and Scabbers' true identity was revealed. The Shrieking Shack was later used by Lord Voldemort and several of his Death Eaters in 1998 as a hideout during the Battle of Hogwarts. Severus Snape was killed by Nagini in this very building
    
    **7. Bulletin**: Refers to the Harry Potter video games, if you get to play major Gryffindor characters: Harry, Ron, or Hermione you receive a sidequest on the bulletin board.
    
@@ -67,8 +67,12 @@ Overall the word cloud manages to sum both occupations and major story occurrenc
 
 ![total_network](images/comm_sent/char_dist_Gryffindor.png)
 ![total_network](images/comm_sent/comm_dist_Gryffindor.png)
+**_Results_**: The distirbution of character sentiments along with average sentiment of communities detected diplay Griffendor as a quite neutral house. Gryffindor contains over 250 characters where most reflect in the house values while the main characters have an overall negative page. It's hard to conlude that this matches or doesn't match the stereotype og Fryffindor sinve the results are rather neutral.
 
-Minerva McGonagall - Sirius Black - Lily J. Potter
+_The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
+based on the VADER sentiment analysis._
+
+**_Minerva McGonagall - Sirius Black - Lily J. Potter_**
 
 | Word      | TF-IDF Score |
 |-----------|--------------|
@@ -78,7 +82,7 @@ Minerva McGonagall - Sirius Black - Lily J. Potter
 | Invention | 5.93         |
 | Year      | 5.78         |
 
-Ronald Weasley - Hermione Granger - Albus Dumbledore
+**_Ronald Weasley - Hermione Granger - Albus Dumbledore_**
 
 | Word    | TF-IDF score |
 |---------|--------------|
@@ -95,7 +99,7 @@ Ronald Weasley - Hermione Granger - Albus Dumbledore
 ### Slytherin
 
 Slytherin is the house that gets the worst reputation throughout the entire series.
-While there is significantly more emphasis on Slytherins bad characteristics they have some
+While there is significantly more emphasis on Slyther'ins bad characteristics they have some
 very desirable characteristics as well. The selection hat tended to select people who had
 characteristics such as cunning, ambitions, leadership abilities and esourcefulness. Slytherin is often
 associated with dark magic and the characters are often seen as devious, selfish and cruel even though that is definitely
@@ -122,7 +126,7 @@ Slytherin is thought of as the evil characters of the stories that think higher 
 
    **1. Kreacher**: Voldemorts house elf.
    
-   **2. Purity and Inbreeding**: Referning to the high proportion of pure-blood wizards within Slytherin.
+   **2. Purity and Inbreeding**: Referring to the high proportion of pure-blood wizards within Slytherin.
    
    **3. Manor**: Manor was the home of the wealthy pure-blood Malfoy family, located in Wiltshire, England. It was mainly used as the base of operations for Lord Voldemort and the Death Eaters during the Second Wizarding War.
    
@@ -140,8 +144,12 @@ Overall the word cloud manages to sum up the identities of Slytherin along with 
 
 ![total_network](images/comm_sent/char_dist_Slytherin.png)
 ![total_network](images/comm_sent/comm_dist_Slytherin.png)
+**_Results_**: The character sentiment distribution on average following something close to a normal distribution leaning towads the negative end with most characters from -0.05--1.05. The communities detectected obtain a negative average sentiment value. This doesn't reflects the wordcloud drawn for the house where there was frequent occuring of negative words. Overall this accepts te stereotype of Slytherins:  Ambition, resourcefulness and determination. An association with villainous characters and elitism has given Slytherin the reputation of being an evil house. Resulting in an overall negative stereotype.
 
-Stuart Craggy - Steve Laughalot - Emma Vanity
+_The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
+based on the VADER sentiment analysis._
+
+**_Stuart Craggy - Steve Laughalot - Emma Vanity_**
 
 | Word        | TF-IDF score |
 |-------------|--------------|
@@ -151,7 +159,7 @@ Stuart Craggy - Steve Laughalot - Emma Vanity
 | Hogwarts    | 2.56         |
 | Name        | 2.30         |
 
-Severus Snape - Lord Voldemort - Bellatrix Lestrange
+**_Severus Snape - Lord Voldemort - Bellatrix Lestrange_**
 
 | Word    | TF-IDF score |
 |---------|--------------|
@@ -199,12 +207,16 @@ JK. Rowling wrote the stories with Gryffindor characters as main characters and 
     
 These words confirm the minor role Hufflepuff had in the Harry Potter stories and clearly state the major role JK. Rowling gave them in the Fantastic Beasts. This is assumption is supported by the fact that the place where the only Hufflepuff teacher teaches its course. The only Hufflepuff character that played a big role in the stories was Cedric Diggory who was killed in the same story as he was introduced.
 
-#### Characterbased sentiment analysis
+#### Character based sentiment analysis
 
 ![total_network](images/comm_sent/char_dist_Hufflepuff.png)
 ![total_network](images/comm_sent/comm_dist_Hufflepuff.png)
+**_Results_**: The character sentiment distribution on average is leaning towads the positive end with most characters from 0-05. The communities detectected obtain a neutral-positive average sentiment value. This can be connected to the stereotype set for Hufflepuff: a strong sense of justice, loyalty and patience.
 
-Filius Flitwick - Rowena Ravenclaw - Ravenclaw Wizard Duelling Champion
+_The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
+based on the VADER sentiment analysis._
+
+**_Filius Flitwick - Rowena Ravenclaw - Ravenclaw Wizard Duelling Champion_**
 
 | Word   | TF-IDF score |
 |--------|--------------|
@@ -214,7 +226,7 @@ Filius Flitwick - Rowena Ravenclaw - Ravenclaw Wizard Duelling Champion
 | Kiss   | 5.00         |
 | Coin   | 5.00         |
 
-Luna Lovegood - Xenophilius Lovegood - Marietta Edgecombe
+**_Luna Lovegood - Xenophilius Lovegood - Marietta Edgecombe_**
 
 | Word     | TF-IDF score |
 |----------|--------------|
@@ -254,7 +266,7 @@ Ravenclaw, like Hufflepuff is a minor of the story but still has significantly m
   
   **2. Shampoo**: Referring to the shampoo, made from Occamy egg yolks, that was a potion invented by Gilderoy Lockhart that supposedly guaranteed "locks of lustrous luminosity and great hair, but in reality was a fraud.
   
-  **3. Branagh**: Gilderoy Lockhart was played by Branagh.
+  **3. Branagh**: Gilderoy Lockhart was played by Kenneth Branagh.
   
   **4. Peacock**: Description to Gilderoy, it means that he is arrogant or likes dressing or behaving in a way that draws attention to himself.
   
@@ -270,8 +282,11 @@ Other noticeable words in the Ravenclaw word cloud:
 
 ![total_network](images/comm_sent/char_dist_Ravenclaw.png)
 ![total_network](images/comm_sent/comm_dist_Ravenclaw.png)
+**_Results_**: The character sentiment distribution on average is nearly equally distributed leaning towads the positive end with most characters from 0.05-1.05. The communities detectected obtain a positive average sentiment value. This doesn't reflect the wordcloud drawn for the house where Fraud and other negative words where the biggest ones. This proves our theory that theese negative words were descriptive of Ravenclaws main character Gildeory Lockhart but not the house itself.
 
-Pomona Sprout - Gabriel Truman - Helga Hufflepuff
+_The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
+based on the VADER sentiment analysis._
+**_Pomona Sprout - Gabriel Truman - Helga Hufflepuff_**
 
 | Word       | TF-IDF score |
 |------------|--------------|
@@ -281,7 +296,7 @@ Pomona Sprout - Gabriel Truman - Helga Hufflepuff
 | Hogwarts   | 4.34         |
 | Snare      | 4.28         |
 
-Cedric Diggory - Heidi Macavoy - Tamsin Applebee
+**_Cedric Diggory - Heidi Macavoy - Tamsin Applebee_**
 
 | Word      | TF-IDF score |
 |-----------|--------------|
@@ -332,8 +347,12 @@ This word cloud also holds some characters that we weren't able to grasp such as
 
 ![total_network](images/comm_sent/char_dist_no_house.png)
 ![total_network](images/comm_sent/comm_dist_no_house.png)
+**_Results_**: The character sentiment distribution follow a normal distribution centering right below the neutral value 0.0 with most characters at 0.2 and 0 meaning that the average is leaning towads the negative end. The communities detectected obtain a rather negative average sentiment value.
 
-Moran - Troy - Connolly
+_The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
+based on the VADER sentiment analysis._
+
+**_Moran - Troy - Connolly_**
 
 | Word      | TF-IDF score |
 |-----------|--------------|
@@ -343,7 +362,7 @@ Moran - Troy - Connolly
 | Guard     | 5.18         |
 | Privet    | 4.98         |
 
-Alastor Moody - Marlene McKinnon - Igor Karkaroff
+**_Alastor Moody - Marlene McKinnon - Igor Karkaroff_**
 
 | Word     | TF-IDF score |
 |----------|--------------|

@@ -49,16 +49,6 @@ As expected, the vast majority of the nodes has a degree close to 0, while very 
 ![total_network](images/comm_sent/comm_dist_TotalNetwork.png)
 
 
-Minerva McGonagall - Sirius Black - Lily J. Potter
-
-| Word      | tf-idf score |
-|-----------|--------------|
-| jacob     | 6.76         |
-| coltrane  | 6.30         |
-| hogwarts  | 6.01         |
-| invention | 5.93         |
-| year      | 5.78         |
-
 
 ---
 

@@ -8,7 +8,7 @@ That is the important part, right? You want to know what I can do for you. This 
 
 ---
 
-## Harry Potter extended network analysis
+### Harry Potter extended network analysis
 
 ![total_network](images/plots_updated/total_network.png)
 
@@ -21,8 +21,6 @@ That is the important part, right? You want to know what I can do for you. This 
 ![house_plots](images/plots_updated/Total_degree_dist.png)
 
 
-
-#### Distribution
 
 
 ---

@@ -94,11 +94,11 @@ Almennt um Rawenclaw hér
 ---
 
 ## Characters without houses
-
-Did you see the picture above? I can show you how to go from
-
+Almennt um characters without houses hér
 
 #### Network analysis
+
+![total_network](images/plots_updated/no_house_network.png)
 
 #### Wordcloud
 ![Hi there](images/withoutHouses_wordcloud.png)

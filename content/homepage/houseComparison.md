@@ -4,7 +4,14 @@ weight: 3
 header_menu: true
 ---
 
-Almennt um hvað við ætlum að gera hér
+The following section will carry out a thorough comparison of the network structures, most frequent words, communities, and sentiment analysis of each of the houses in the Harry Potter stories and group all characters without a house in one graph. All houses will contain the following sections:
+
+*Network analysis:* Covering the basic structure of the graph for each house and the degree distribution of characters.
+
+*Wordcloud:* Wordcloud for each house. The word clouds show the words with the most weight based on their TC-IDF(Term Count - Inverse Document Frequency) value. The text for each house is gathered from their characters' pages. The TC is the count of each unique word within the house text while the IDF is a weight indicating how commonly a word is used in the entire character pages, that is in all house texts. The more frequent its usage across documents, the lower its score. The lower the score, the less important the word becomes. This should leave words that are descriptive of the house in consideration, leaving out words that frequently occur in all character pages like curse, dark, magic, etc.
+
+*The sentiment of communities and characters:* Displays the distribution of sentiment over character pages within the house. Then detects communities within the network and calculates their average sentiment. Finally, for the communities, the words with the most weight based on their TF-IDF(Term Frequency - Inverse Document Frequency) values were detected to see if they reflect on the average sentiment of the communities.
+All sentiment analysis was carried out using the method based VADER sentiment analysis. 
 
 
 ### Gryffindor
@@ -23,6 +30,8 @@ the emphasis is mostly on their positive traits they are far from being perfect.
 #### Network analysis
 ![total_network](images/plots_updated/gryffindor_network.png)
 
+#### Distribution
+
 ![house_plots](images/plots_updated/Gryffindor_in_dist.png)
 
 ![house_plots](images/plots_updated/Gryffindor_out_dist.png)
@@ -30,6 +39,7 @@ the emphasis is mostly on their positive traits they are far from being perfect.
 ![house_plots](images/plots_updated/Gryffindor_loglog_dist.png)
 
 ![house_plots](images/plots_updated/Gryffindor_degree_dist.png)
+
 
 #### Wordcloud
 
@@ -70,6 +80,8 @@ not the case for all of them.
 
 #### Network analysis
 ![total_network](images/plots_updated/slytherin_network.png)
+
+#### Distribution
 
 ![house_plots](images/plots_updated/Slytherin_in_dist.png)
 ![house_plots](images/plots_updated/Slytherin_out_dist.png)
@@ -116,6 +128,8 @@ that the fewest dark vizards belonged to that house.
 #### Network analysis
 ![total_network](images/plots_updated/hufflepuff_network.png)
 
+#### Distribution
+
 ![house_plots](images/plots_updated/Hufflepuff_in_dist.png)
 ![house_plots](images/plots_updated/Hufflepuff_out_dist.png)
 ![house_plots](images/plots_updated/Hufflepuff_loglog_dist.png)
@@ -153,6 +167,8 @@ backstab each other, and students from other houses, in order to get higher grad
 #### Network analysis
 
 ![total_network](images/plots_updated/ravenclaw_network.png)
+
+#### Distribution
 ![house_plots](images/plots_updated/Ravenclaw_in_dist.png)
 ![house_plots](images/plots_updated/Ravenclaw_out_dist.png)
 ![house_plots](images/plots_updated/Ravenclaw_loglog_dist.png)
@@ -188,11 +204,18 @@ Other noticeable words in the Ravenclaw word cloud:
 ---
 
 ### Characters without houses
-Almennt um characters without houses hér
+Not all the characters in the Harry Potter world are wizards or witches. Many of them are just ordinary muggles
+that live their lives outside the walls of the Hogwarts School of Witchcraft and Wizardry.
+Since those characters are quite many, and some of them major characters in the storyline, it was decided to collect them
+and create a separate network and do analysis on them. Some of those characters are actually wizards or witches, but their house
+is unknown.
 
 #### Network analysis
 
 ![total_network](images/plots_updated/no_house_network.png)
+
+#### Distribution
+
 ![house_plots](images/plots_updated/NoHouse_in_dist.png)
 ![house_plots](images/plots_updated/NoHouse_out_dist.png)
 ![house_plots](images/plots_updated/NoHouse_loglog_dist.png)

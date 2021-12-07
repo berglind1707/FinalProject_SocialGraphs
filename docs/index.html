@@ -166,13 +166,8 @@ This website is a part of our final project in the course Social Graphs and Inte
                     <h2 class="post-title">Network Analysis</h2>
                 </header>
                 <section class="post-content">
-                    <p>The goal for this part is to analyse the network that was created and look into the relationships between
-the characters in the Harry Potter world. The data comes from the Harry Potter Wiki.
-After capturing the names of the characters, along with their wiki pages and entities such as blood type and gender,
-we built a network based on them. We will look at the size of the giant connected component (GCC),
-the degree distribution, find the most connected characters, look at which house has the most characters,
-look at the gender distribution of each house, draw the network and finally see if the Friendship Paradox
-holds for the network.</p>
+                    <p>The goal for this part is to analyse the network that was created and look into the relationships between the characters in the Harry Potter world. The data was collected from <a href="https://harrypotter.fandom.com/wiki/Main_Page">The Harry Potter Wiki API</a>. From the Wiki page, we managed to collect the names of the characters attending Hogwarts by looking at the pages of the four houses (<a href="https://harrypotter.fandom.com/wiki/Gryffindor">Gryffindor</a>, <a href="https://harrypotter.fandom.com/wiki/Slytherin">Slytherin</a>, <a href="https://harrypotter.fandom.com/wiki/Ravenclaw">Ravenclaw</a> and <a href="https://harrypotter.fandom.com/wiki/Hufflepuff">Hufflepuff</a>). But not all the characters of the Harry Potter world are wizards, so we collected the names of the remaining characters from <a href="https://hp-api.herokuapp.com/api/characters">this API</a>. The names were captured using regular expressions on the text from the HTTP response.</p>
+<p>After capturing the names of the characters, along with their wiki pages and entities such as blood type and gender, we built a network based on them. Here we will look at the size of the giant connected component (GCC), its degree distribution, find the most connected characters, look at which house has the most characters, examine the gender distribution of each house, draw the network and finally see if the Friendship Paradox holds for the network.</p>
 <hr>
 <h3 id="harry-potter-extended-network-analysis">Harry Potter extended network analysis</h3>
 <p><img src="images/plots_updated/total_network.png" alt="total_network"></p>
@@ -182,15 +177,25 @@ holds for the network.</p>
 <p>Yellow - Huffelpuff</p>
 <p>Beige - Characters without houses</p>
 <p>The network is quite big, so it is very dense at some places. The biggest node is, unsurprisingly, Harry Potter. The nodes with names are all well-known characters from the Harry Potter universe. Red and green are dominant colors here which is expected too, because Gryffindor and Slytherin were the houses with the highest number of characters, as shown earlier.</p>
+<h3 id="distribution">Distribution</h3>
+<p>Let&rsquo;s now take a look at the degree distributions of the network. We will look at plots visualising the in- and out-degree distribution, along with the distribution on a log-log scale and the degree distribution of the undirected giant connected component.</p>
 <p><img src="images/plots_updated/Total_in_dist.png" alt="house_plots"></p>
 <p><img src="images/plots_updated/Total_out_dist.png" alt="house_plots"></p>
 <p><img src="images/plots_updated/Total_loglog_dist.png" alt="house_plots"></p>
 <p><img src="images/plots_updated/Total_degree_dist.png" alt="house_plots"></p>
+<p>As expected, the vast majority of the nodes has a degree close to 0, while very few nodes have a high degree. The x-axis is cut off at 60, for better visualisation, although some nodes have a lot higher degree.</p>
 <hr>
 <h4 id="general-house-information">General House Information</h4>
+<p><img src="images/plots_updated/number_of_characters.png" alt="house_plots">
+It is not surprising that Gryffindor has the most characters, followed by Slytherin, as those are the main houses in the books. Ravenclaw and Hufflepuff play a smaller role in the series, and have almost the same number of characters. Then there are some characters that are not members of any houses. Those are the characters that were not attending the Hogwarts school, or characters attending Hogwarts, but whose house is unknown.</p>
 <p><img src="images/plots_updated/gender_dist.png" alt="house_plots"></p>
-<p><img src="images/plots_updated/number_of_characters.png" alt="house_plots"></p>
-<p><img src="images/plots_updated/pure_blood_dist.png" alt="house_plots"></p>
+<p>The gender distribution is quite even for all of the houses, except for Slytherin which is quite male-dominant. For characters without a house, the males are dominant characters, that might be because many of those characters are trolls and other creatures.
+<img src="images/pure_blood_dist.png" alt="house_plots"></p>
+<p>The one house that stands out here is Slytherin. When digging deeper, this is no surprise. On the website <em>Pottermore</em>, J.K. Rowling wrote:</p>
+<blockquote>
+<p>&ldquo;The term &lsquo;pure-blood&rsquo; refers to a family or individual without Muggle (non-magic) blood. The concept is generally associated with Salazar Slytherin, one of the four founders of Hogwarts School of Witchcraft and Wizardry, whose aversion to teaching anybody of Muggle parentage eventually led to a breach with his three fellow founders, and his resignation from the school.&rdquo;</p>
+</blockquote>
+<p>This shows that Slytherin has much pride in keeping their purity. The diminshing number of pure-bloods over the years led to inbreeding within the families that wanted to keep the purity in the family. The Malfoy family was one of those who wanted to stick to that, but eventually allowed marrying half-bloods.</p>
 <hr>
 
                 </section>
@@ -204,7 +209,11 @@ holds for the network.</p>
                     <h2 class="post-title">House Comparison</h2>
                 </header>
                 <section class="post-content">
-                    <p>Almennt um hvað við ætlum að gera hér</p>
+                    <p>The following section will carry out a thorough comparison of the network structures, most frequent words, communities, and sentiment analysis of each of the houses in the Harry Potter stories and group all characters without a house in one graph. All houses will contain the following sections:</p>
+<p><em>Network analysis:</em> Covering the basic structure of the graph for each house and the degree distribution of characters.</p>
+<p><em>Wordcloud:</em> Wordcloud for each house. The word clouds show the words with the most weight based on their TC-IDF(Term Count - Inverse Document Frequency) value. The text for each house is gathered from their characters' pages. The TC is the count of each unique word within the house text while the IDF is a weight indicating how commonly a word is used in the entire character pages, that is in all house texts. The more frequent its usage across documents, the lower its score. The lower the score, the less important the word becomes. This should leave words that are descriptive of the house in consideration, leaving out words that frequently occur in all character pages like curse, dark, magic, etc.</p>
+<p><em>The sentiment of communities and characters:</em> Displays the distribution of sentiment over character pages within the house. Then detects communities within the network and calculates their average sentiment. Finally, for the communities, the words with the most weight based on their TF-IDF(Term Frequency - Inverse Document Frequency) values were detected to see if they reflect on the average sentiment of the communities.
+All sentiment analysis was carried out using the method based VADER sentiment analysis.</p>
 <h3 id="gryffindor">Gryffindor</h3>
 <p>Gryffindor is without a doubt the house that gets the most attention throughout the series.
 The reason for that is because three of the main characters, Harry, Ron, and Hermione, are all sorted
@@ -213,6 +222,7 @@ The main characteristics that people from Gryffindor are known for are courage, 
 the emphasis is mostly on their positive traits they are far from being perfect.</p>
 <h4 id="network-analysis">Network analysis</h4>
 <p><img src="images/plots_updated/gryffindor_network.png" alt="total_network"></p>
+<h4 id="distribution">Distribution</h4>
 <p><img src="images/plots_updated/Gryffindor_in_dist.png" alt="house_plots"></p>
 <p><img src="images/plots_updated/Gryffindor_out_dist.png" alt="house_plots"></p>
 <p><img src="images/plots_updated/Gryffindor_loglog_dist.png" alt="house_plots"></p>
@@ -239,6 +249,7 @@ associated with dark magic and the characters are often seen as devious, selfish
 not the case for all of them.</p>
 <h4 id="network-analysis-1">Network analysis</h4>
 <p><img src="images/plots_updated/slytherin_network.png" alt="total_network"></p>
+<h4 id="distribution-1">Distribution</h4>
 <p><img src="images/plots_updated/Slytherin_in_dist.png" alt="house_plots">
 <img src="images/plots_updated/Slytherin_out_dist.png" alt="house_plots">
 <img src="images/plots_updated/Slytherin_loglog_dist.png" alt="house_plots">
@@ -263,6 +274,7 @@ as well as taking everybody as an equal. What is very interesting about Hufflepu
 that the fewest dark vizards belonged to that house.</p>
 <h4 id="network-analysis-2">Network analysis</h4>
 <p><img src="images/plots_updated/hufflepuff_network.png" alt="total_network"></p>
+<h4 id="distribution-2">Distribution</h4>
 <p><img src="images/plots_updated/Hufflepuff_in_dist.png" alt="house_plots">
 <img src="images/plots_updated/Hufflepuff_out_dist.png" alt="house_plots">
 <img src="images/plots_updated/Hufflepuff_loglog_dist.png" alt="house_plots">
@@ -284,8 +296,9 @@ With that being said many of Ravenclaw members were very ambitious and talented 
 Slytherin house that Ravenclaw students weren‘t as perfect as they seemed since they would without blinking an eye
 backstab each other, and students from other houses, in order to get higher grades.</p>
 <h4 id="network-analysis-3">Network analysis</h4>
-<p><img src="images/plots_updated/ravenclaw_network.png" alt="total_network">
-<img src="images/plots_updated/Ravenclaw_in_dist.png" alt="house_plots">
+<p><img src="images/plots_updated/ravenclaw_network.png" alt="total_network"></p>
+<h4 id="distribution-3">Distribution</h4>
+<p><img src="images/plots_updated/Ravenclaw_in_dist.png" alt="house_plots">
 <img src="images/plots_updated/Ravenclaw_out_dist.png" alt="house_plots">
 <img src="images/plots_updated/Ravenclaw_loglog_dist.png" alt="house_plots">
 <img src="images/plots_updated/Ravenclaw_degree_dist.png" alt="house_plots"></p>
@@ -303,10 +316,15 @@ backstab each other, and students from other houses, in order to get higher grad
 <h4 id="sentiment-of-communities-and-characters-2">Sentiment of communities and characters</h4>
 <hr>
 <h3 id="characters-without-houses">Characters without houses</h3>
-<p>Almennt um characters without houses hér</p>
+<p>Not all the characters in the Harry Potter world are wizards or witches. Many of them are just ordinary muggles
+that live their lives outside the walls of the Hogwarts School of Witchcraft and Wizardry.
+Since those characters are quite many, and some of them major characters in the storyline, it was decided to collect them
+and create a separate network and do analysis on them. Some of those characters are actually wizards or witches, but their house
+is unknown.</p>
 <h4 id="network-analysis-4">Network analysis</h4>
-<p><img src="images/plots_updated/no_house_network.png" alt="total_network">
-<img src="images/plots_updated/NoHouse_in_dist.png" alt="house_plots">
+<p><img src="images/plots_updated/no_house_network.png" alt="total_network"></p>
+<h4 id="distribution-4">Distribution</h4>
+<p><img src="images/plots_updated/NoHouse_in_dist.png" alt="house_plots">
 <img src="images/plots_updated/NoHouse_out_dist.png" alt="house_plots">
 <img src="images/plots_updated/NoHouse_loglog_dist.png" alt="house_plots">
 <img src="images/plots_updated/NoHouse_degree_dist.png" alt="house_plots"></p>

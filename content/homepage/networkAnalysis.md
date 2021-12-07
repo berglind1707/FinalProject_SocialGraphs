@@ -12,7 +12,8 @@ That is the important part, right? You want to know what I can do for you. This 
 
 ![Hi there](images/plots_thordur/total_network.png)
 
-![Hi there](images/plots_thordur/Total_out_dist.png)
+<img src="images/plots_thordur/total_network.png" width="800">
+
 
 
 Wow. That was nice, right? Well, call me and let us talk.

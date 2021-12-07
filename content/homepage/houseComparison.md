@@ -4,10 +4,21 @@ weight: 3
 header_menu: true
 ---
 
+Almennt um hvað við ætlum að gera hér
 
 
 ### Gryffindor
-Almennt um gryffindor hér
+
+
+Gryffindor
+
+Gryffindor is without a doubt the house that gets the most attention throughout the series. 
+The reason for that is because three of main characters, Harry, Ron and Hermione, are all
+sorted into Gryffindor house and therefor it can be argued that the series are a bit biased towards Gryffindor.
+The main characteristics that people from Gryffindor are known for are courage, chivalry and loyality.
+Even though the emphatisis is mostly on their postive traits they are far from being perfect.
+ 
+
 
 
 #### Network analysis

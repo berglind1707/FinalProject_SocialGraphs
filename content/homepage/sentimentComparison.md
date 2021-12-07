@@ -6,11 +6,11 @@ header_menu: true
 Almennt um hvað við ætlum að gera hér og taka fram að við erum að bera saman bækur vs myndir 
 ![Jane Doe](images/flyingletters.jpg)
 
-##### Titill
+
+![Jane Doe](images/sentiment/movievsbooksent.png)
 
 ![Jane Doe](images/sentiment/booksent.png)
 
-![Jane Doe](images/sentiment/movievsbooksent.png)
 
 
 A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.

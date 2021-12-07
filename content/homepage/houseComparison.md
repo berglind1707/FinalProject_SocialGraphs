@@ -68,6 +68,25 @@ Overall the word cloud manages to sum both occupations and major story occurrenc
 ![total_network](images/comm_sent/char_dist_Gryffindor.png)
 ![total_network](images/comm_sent/comm_dist_Gryffindor.png)
 
+Minerva McGonagall - Sirius Black - Lily J. Potter
+
+| Word      | TF-IDF Score |
+|-----------|--------------|
+| Jacob     | 6.76         |
+| Coltrane  | 6.30         |
+| Hogwarts  | 6.01         |
+| Invention | 5.93         |
+| Year      | 5.78         |
+
+Ronald Weasley - Hermione Granger - Albus Dumbledore
+
+| Word    | TF-IDF score |
+|---------|--------------|
+| Erling  | 6.76         |
+| Cadogan | 6.46         |
+| Sir     | 5.72         |
+| Fat     | 5.24         |
+| Pony    | 5.24         |
 
 
 
@@ -122,6 +141,26 @@ Overall the word cloud manages to sum up the identities of Slytherin along with 
 ![total_network](images/comm_sent/char_dist_Slytherin.png)
 ![total_network](images/comm_sent/comm_dist_Slytherin.png)
 
+Stuart Craggy - Steve Laughalot - Emma Vanity
+
+| Word        | TF-IDF score |
+|-------------|--------------|
+| Draughtsman | 3.06         |
+| Captain     | 3.03         |
+| Quidditch   | 2.89         |
+| Hogwarts    | 2.56         |
+| Name        | 2.30         |
+
+Severus Snape - Lord Voldemort - Bellatrix Lestrange
+
+| Word    | TF-IDF score |
+|---------|--------------|
+| Rowan   | 9.30         |
+| Vault   | 8.73         |
+| Jacob   | 7.68         |
+| Sibling | 6.36         |
+| Choir   | 5.81         |
+
 
 ---
 
@@ -164,6 +203,26 @@ These words confirm the minor role Hufflepuff had in the Harry Potter stories an
 
 ![total_network](images/comm_sent/char_dist_Hufflepuff.png)
 ![total_network](images/comm_sent/comm_dist_Hufflepuff.png)
+
+Filius Flitwick - Rowena Ravenclaw - Ravenclaw Wizard Duelling Champion
+
+| Word   | TF-IDF score |
+|--------|--------------|
+| Army   | 5.70         |
+| Fought | 5.21         |
+| Dating | 5.00         |
+| Kiss   | 5.00         |
+| Coin   | 5.00         |
+
+Luna Lovegood - Xenophilius Lovegood - Marietta Edgecombe
+
+| Word     | TF-IDF score |
+|----------|--------------|
+| Vanity   | 8.50         |
+| Turban   | 7.74         |
+| Annoying | 7.56         |
+| Branagh  | 7.56         |
+| Fame     | 7.21         |
 
 ---
 
@@ -212,6 +271,26 @@ Other noticeable words in the Ravenclaw word cloud:
 ![total_network](images/comm_sent/char_dist_Ravenclaw.png)
 ![total_network](images/comm_sent/comm_dist_Ravenclaw.png)
 
+Pomona Sprout - Gabriel Truman - Helga Hufflepuff
+
+| Word       | TF-IDF score |
+|------------|--------------|
+| Theorem    | 4.96         |
+| Arithmancy | 4.64         |
+| Herbology  | 4.58         |
+| Hogwarts   | 4.34         |
+| Snare      | 4.28         |
+
+Cedric Diggory - Heidi Macavoy - Tamsin Applebee
+
+| Word      | TF-IDF score |
+|-----------|--------------|
+| Maze      | 5.24         |
+| Captained | 4.64         |
+| Egg       | 4.64         |
+| Echo      | 4.28         |
+| Seeker    | 3.84         |
+
 
 ---
 
@@ -253,6 +332,26 @@ This word cloud also holds some characters that we weren't able to grasp such as
 
 ![total_network](images/comm_sent/char_dist_no_house.png)
 ![total_network](images/comm_sent/comm_dist_no_house.png)
+
+Moran - Troy - Connolly
+
+| Word      | TF-IDF score |
+|-----------|--------------|
+| Advance   | 8.03         |
+| Minister  | 5.64         |
+| Gabrielle | 5.51         |
+| Guard     | 5.18         |
+| Privet    | 4.98         |
+
+Alastor Moody - Marlene McKinnon - Igor Karkaroff
+
+| Word     | TF-IDF score |
+|----------|--------------|
+| Madeye   | 7.37         |
+| Rowle    | 7.10         |
+| Thorfinn | 6.40         |
+| Ariana   | 6.30         |
+| Azkaban  | 5.63         |
 
 ---
 

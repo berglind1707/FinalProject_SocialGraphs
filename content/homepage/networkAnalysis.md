@@ -48,10 +48,22 @@ As expected, the vast majority of the nodes has a degree close to 0, while very 
 ![total_network](images/comm_sent/char_dist_TotalNetwork.png)
 ![total_network](images/comm_sent/comm_dist_TotalNetwork.png)
 
+
+Minerva McGonagall - Sirius Black - Lily J. Potter
+
+| Word      | tf-idf score |
+|-----------|--------------|
+| jacob     | 6.76         |
+| coltrane  | 6.30         |
+| hogwarts  | 6.01         |
+| invention | 5.93         |
+| year      | 5.78         |
+
+
 ---
 
 
-#### General House Information
+## General House Information
 
 ![house_plots](images/plots_updated/number_of_characters.png)
 It is not surprising that Gryffindor has the most characters, followed by Slytherin, as those are the main houses in the books. Ravenclaw and Hufflepuff play a smaller role in the series, and have almost the same number of characters. Then there are some characters that are not members of any houses. Those are the characters that were not attending the Hogwarts school, or characters attending Hogwarts, but whose house is unknown.

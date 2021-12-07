@@ -22,7 +22,7 @@ Green - Slytherin
 
 Blue - Ravenclaw
 
-Yellow - Huffelpuff
+Yellow - Hufflepuff
 
 Beige - Characters without houses
 
@@ -48,7 +48,7 @@ As expected, the vast majority of the nodes has a degree close to 0, while very 
 ![total_network](images/comm_sent/char_dist_TotalNetwork.png)
 ![total_network](images/comm_sent/comm_dist_TotalNetwork.png)
 
-
+---
 
 
 #### General House Information

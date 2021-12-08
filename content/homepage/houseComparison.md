@@ -6,12 +6,13 @@ header_menu: true
 
 The following section will carry out a thorough comparison of the network structures, most frequent words, communities, and sentiment analysis of each of the houses in the Harry Potter stories and group all characters without a house in one graph. All houses will contain the following sections:
 
-*Network analysis:* Covering the basic structure of the graph for each house and the degree distribution of characters.
+**_Network analysis:_** Covering the basic structure of the graph for each house and the degree distribution of characters.
 
-*Wordcloud:* Wordcloud for each house. The word clouds show the words with the most weight based on their TC-IDF(Term Count - Inverse Document Frequency) value. The text for each house is gathered from their characters' pages. The TC is the count of each unique word within the house text while the IDF is a weight indicating how commonly a word is used in the entire character pages, that is in all house texts. The more frequent its usage across documents, the lower its score. The lower the score, the less important the word becomes. This should leave words that are descriptive of the house in consideration, leaving out words that frequently occur in all character pages like curse, dark, magic, etc.
+**_Wordclouds:_** Wordcloud for each house. The word clouds show the words with the most weight based on their TC-IDF(Term Count - Inverse Document Frequency) value. The text for each house is gathered from their characters' pages. The TC is the count of each unique word within the house text while the IDF is a weight indicating how commonly a word is used in the entire character pages, that is in all house texts. The more frequent its usage across documents, the lower its score. The lower the score, the less important the word becomes. This should leave words that are descriptive of the house in consideration, leaving out words that frequently occur in all character pages like curse, dark, magic, etc.
 
-*The sentiment of communities and characters:* Displays the distribution of sentiment over character pages within the house. Then detects communities within the network and calculates their average sentiment. Finally, for the communities, the words with the most weight based on their TF-IDF(Term Frequency - Inverse Document Frequency) values were detected to see if they reflect on the average sentiment of the communities.
+**_The sentiment of communities and characters:_** Displays the distribution of sentiment over character pages within the house. Then detects communities within the network and calculates their average sentiment. Finally, for the communities, the words with the most weight based on their TF-IDF(Term Frequency - Inverse Document Frequency) values were detected to see if they reflect on the average sentiment of the communities.
 All sentiment analysis was carried out using the method based VADER sentiment analysis. 
+The communities are named after the top three most connected characters within them.
 
 
 ### Gryffindor
@@ -67,7 +68,7 @@ Overall the word cloud manages to sum both occupations and major story occurrenc
 
 ![total_network](images/comm_sent/char_dist_Gryffindor.png)
 ![total_network](images/comm_sent/comm_dist_Gryffindor.png)
-**_Results_**: The distirbution of character sentiments along with average sentiment of communities detected diplay Griffendor as a quite neutral house. Gryffindor contains over 250 characters where most reflect in the house values while the main characters have an overall negative page. It's hard to conlude that this matches or doesn't match the stereotype og Fryffindor sinve the results are rather neutral.
+**_Results_**: The distirbution of character sentiments along with average sentiment of communities detected diplay Griffendor as a quite neutral house. Gryffindor contains over 250 characters where most reflect in the house values while the main characters have an overall negative page. It's hard to conlude that this matches or doesn't match the stereotype og Gryffindor sinve the results are rather neutral.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -144,7 +145,7 @@ Overall the word cloud manages to sum up the identities of Slytherin along with 
 
 ![total_network](images/comm_sent/char_dist_Slytherin.png)
 ![total_network](images/comm_sent/comm_dist_Slytherin.png)
-**_Results_**: The character sentiment distribution on average following something close to a normal distribution leaning towads the negative end with most characters from -0.05--1.05. The communities detectected obtain a negative average sentiment value. This doesn't reflects the wordcloud drawn for the house where there was frequent occuring of negative words. Overall this accepts te stereotype of Slytherins:  Ambition, resourcefulness and determination. An association with villainous characters and elitism has given Slytherin the reputation of being an evil house. Resulting in an overall negative stereotype.
+**_Results_**: The character sentiment distribution on average following something close to a normal distribution leaning towads the negative end with most characters from -0.05--.15. The communities detectected obtain a negative average sentiment value. This doesn't reflec the wordcloud drawn for the house where there was frequent occuring of negative words. Overall this accepts te stereotype of Slytherins:  Ambition, resourcefulness and determination. An association with villainous characters and elitism has given Slytherin the reputation of being an evil house. Resulting in an overall negative stereotype.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -211,7 +212,7 @@ These words confirm the minor role Hufflepuff had in the Harry Potter stories an
 
 ![total_network](images/comm_sent/char_dist_Hufflepuff.png)
 ![total_network](images/comm_sent/comm_dist_Hufflepuff.png)
-**_Results_**: The character sentiment distribution on average is leaning towads the positive end with most characters from 0-05. The communities detectected obtain a neutral-positive average sentiment value. This can be connected to the stereotype set for Hufflepuff: a strong sense of justice, loyalty and patience.
+**_Results_**: The character sentiment distribution on average is leaning towads the positive end with most characters from 0-0.05. The communities detectected obtain a neutral-positive average sentiment value. This can be connected to the stereotype set for Hufflepuff: a strong sense of justice, loyalty and patience. Which overall serve a rather neutral role in the stories.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -282,7 +283,7 @@ Other noticeable words in the Ravenclaw word cloud:
 
 ![total_network](images/comm_sent/char_dist_Ravenclaw.png)
 ![total_network](images/comm_sent/comm_dist_Ravenclaw.png)
-**_Results_**: The character sentiment distribution on average is nearly equally distributed leaning towads the positive end with most characters from 0.05-1.05. The communities detectected obtain a positive average sentiment value. This doesn't reflect the wordcloud drawn for the house where Fraud and other negative words where the biggest ones. This proves our theory that theese negative words were descriptive of Ravenclaws main character Gildeory Lockhart but not the house itself.
+**_Results_**: The character sentiment distribution on average is nearly equally distributed leaning towads the positive end with most characters from 0.05-.15. The communities detectected obtain a positive average sentiment value. This doesn't reflect the wordcloud drawn for the house where Fraud and other negative words where the biggest ones. This proves our theory that theese negative words were descriptive of one of Ravenclaws main character Gildeory Lockhart but not the house itself.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -348,7 +349,7 @@ This word cloud also holds some characters that we weren't able to grasp such as
 
 ![total_network](images/comm_sent/char_dist_no_house.png)
 ![total_network](images/comm_sent/comm_dist_no_house.png)
-**_Results_**: The character sentiment distribution follow a normal distribution centering right below the neutral value 0.0 with most characters at 0.2 and 0 meaning that the average is leaning towads the negative end. The communities detectected obtain a rather negative average sentiment value.
+**_Results_**: The character sentiment distribution follow a normal distribution centering right below the neutral value 0 with most characters at -0.2 and -0.05 meaning that the average is leaning towads the negative end. The communities detectected obtain a rather negative average sentiment value.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -375,6 +376,15 @@ based on the VADER sentiment analysis._
 
 ---
 
-### Conclusion to sentiment analysis and community dections within houses
+### Conclusion to house comparison
+To briefly reflect on the results the following subsections carry out a comparison.
 
+#### Wordclouds
+Overall the WordClouds do reflect on the houses but it's clear that Gryffindor and Slytherin have more characters since their result is more general and the result for Hufflepuff, Ravenclaw and characters without a house is way more specific to details of the stories.
+
+#### Community detection and sentiment analysis
 ![total_network](images/sent_comp.png)
+The results for the houses are as expected. Gryffindor seems to be quiet neutral while Slytherin reaches closer to the negative side. Ravenclaw and Hufflepuff score near the positive range which is descriptive of their characters and communities detected. Overall this result matches the stereotypes set for each house. It's interesting that the characters without a house lean towards the negative side for average sentiment of character pages.
+
+#### Top words for each community
+Overall it can be concluded that top words based on the TF-IDF values do not describe the sentiment of the communities but rather describe major events and storyline of the characters included in each community.

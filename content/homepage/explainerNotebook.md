@@ -7,6 +7,11 @@ header_menu: true
 
 [Please click here to see our Explainers Notebook](https://nbviewer.org/github/berglind1707/HarryPotter-Data/blob/main/HarryPotter_explainers_notebook.ipynb)
 
+If this link above is not working the notebook can be viewed here in our GitHub repo:
+https://github.com/berglind1707/HarryPotter-Data/blob/main/HarryPotter_explainers_notebook.ipynb
+
+
+
 
 [Please click here to download our dataset](https://github.com/berglind1707/HarryPotter-Data/blob/main/harry_potter_social_graphs.zip)
 

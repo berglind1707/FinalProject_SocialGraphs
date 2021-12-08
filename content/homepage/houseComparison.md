@@ -68,7 +68,7 @@ Overall the word cloud manages to sum both occupations and major story occurrenc
 
 ![total_network](images/comm_sent/char_dist_Gryffindor.png)
 ![total_network](images/comm_sent/comm_dist_Gryffindor.png)
-**_Results_**: The distirbution of character sentiments along with average sentiment of communities detected diplay Griffendor as a quite neutral house. Gryffindor contains over 250 characters where most reflect in the house values while the main characters have an overall negative page. It's hard to conlude that this matches or doesn't match the stereotype og Gryffindor sinve the results are rather neutral.
+The distribution of character sentiments along with average sentiment of communities detected diplay Griffendor as a quite neutral house. Gryffindor contains over 250 characters where most reflect in the house values while the main characters have an overall negative page. It's hard to conlude that this matches or doesn't match the stereotype og Gryffindor sinve the results are rather neutral.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -145,7 +145,7 @@ Overall the word cloud manages to sum up the identities of Slytherin along with 
 
 ![total_network](images/comm_sent/char_dist_Slytherin.png)
 ![total_network](images/comm_sent/comm_dist_Slytherin.png)
-**_Results_**: The character sentiment distribution on average following something close to a normal distribution leaning towads the negative end with most characters from -0.05--.15. The communities detectected obtain a negative average sentiment value. This doesn't reflec the wordcloud drawn for the house where there was frequent occuring of negative words. Overall this accepts te stereotype of Slytherins:  Ambition, resourcefulness and determination. An association with villainous characters and elitism has given Slytherin the reputation of being an evil house. Resulting in an overall negative stereotype.
+The character sentiment distribution on average following something close to a normal distribution leaning towads the negative end with most characters from -0.05--.15. The communities detectected obtain a negative average sentiment value. This doesn't reflec the wordcloud drawn for the house where there was frequent occuring of negative words. Overall this accepts te stereotype of Slytherins:  Ambition, resourcefulness and determination. An association with villainous characters and elitism has given Slytherin the reputation of being an evil house. Resulting in an overall negative stereotype.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -212,7 +212,7 @@ These words confirm the minor role Hufflepuff had in the Harry Potter stories an
 
 ![total_network](images/comm_sent/char_dist_Hufflepuff.png)
 ![total_network](images/comm_sent/comm_dist_Hufflepuff.png)
-**_Results_**: The character sentiment distribution on average is leaning towads the positive end with most characters from 0-0.05. The communities detectected obtain a neutral-positive average sentiment value. This can be connected to the stereotype set for Hufflepuff: a strong sense of justice, loyalty and patience. Which overall serve a rather neutral role in the stories.
+The character sentiment distribution on average is leaning towads the positive end with most characters from 0-0.05. The communities detectected obtain a neutral-positive average sentiment value. This can be connected to the stereotype set for Hufflepuff: a strong sense of justice, loyalty and patience. Which overall serve a rather neutral role in the stories.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -283,7 +283,7 @@ Other noticeable words in the Ravenclaw word cloud:
 
 ![total_network](images/comm_sent/char_dist_Ravenclaw.png)
 ![total_network](images/comm_sent/comm_dist_Ravenclaw.png)
-**_Results_**: The character sentiment distribution on average is nearly equally distributed leaning towads the positive end with most characters from 0.05-.15. The communities detectected obtain a positive average sentiment value. This doesn't reflect the wordcloud drawn for the house where Fraud and other negative words where the biggest ones. This proves our theory that theese negative words were descriptive of one of Ravenclaws main character Gildeory Lockhart but not the house itself.
+The character sentiment distribution on average is nearly equally distributed leaning towads the positive end with most characters from 0.05-.15. The communities detectected obtain a positive average sentiment value. This doesn't reflect the wordcloud drawn for the house where Fraud and other negative words where the biggest ones. This proves our theory that theese negative words were descriptive of one of Ravenclaws main character Gildeory Lockhart but not the house itself.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -349,7 +349,7 @@ This word cloud also holds some characters that we weren't able to grasp such as
 
 ![total_network](images/comm_sent/char_dist_no_house.png)
 ![total_network](images/comm_sent/comm_dist_no_house.png)
-**_Results_**: The character sentiment distribution follow a normal distribution centering right below the neutral value 0 with most characters at -0.2 and -0.05 meaning that the average is leaning towads the negative end. The communities detectected obtain a rather negative average sentiment value.
+The character sentiment distribution follow a normal distribution centering right below the neutral value 0 with most characters at -0.2 and -0.05 meaning that the average is leaning towads the negative end. The communities detectected obtain a rather negative average sentiment value.
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
@@ -381,6 +381,7 @@ To briefly reflect on the results the following subsections carry out a comparis
 
 #### Wordclouds
 Overall the WordClouds do reflect on the houses but it's clear that Gryffindor and Slytherin have more characters since their result is more general and the result for Hufflepuff, Ravenclaw and characters without a house is way more specific to details of the stories.
+It was even able to detect some meta universe knowledge.
 
 #### Community detection and sentiment analysis
 ![total_network](images/sent_comp.png)

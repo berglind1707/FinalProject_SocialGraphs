@@ -48,6 +48,7 @@ As expected, the vast majority of the nodes has a degree close to 0, while very 
 ![total_network](images/comm_sent/char_dist_TotalNetwork.png)
 ![total_network](images/comm_sent/comm_dist_TotalNetwork.png)
 
+The distribution of sentiment for all character pages is near perfectly distributed confirming the diversity of characters. The communities detected have various average sentiments which reflects on the character sentiment distribution.
 
 
 ---

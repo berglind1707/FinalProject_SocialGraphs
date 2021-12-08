@@ -5,10 +5,10 @@ header_menu: true
 ---
 
 
-[Please click here to see our Explainers Notebook](https://nbviewer.org/github/berglind1707/Harry-Potter-Data/blob/main/harry_potter_explainers_notebook.ipynb)
+[Please click here to see our Explainers Notebook](https://nbviewer.org/github/berglind1707/HarryPotter-Data/blob/main/HarryPotter_explainers_notebook.ipynb)
 
 
-[Please click here to download our dataset](https://github.com/berglind1707/Harry-Potter-Data/blob/main/harry_potter_social_graphs.zip)
+[Please click here to download our dataset](https://github.com/berglind1707/HarryPotter-Data/blob/main/harry_potter_social_graphs.zip)
 
 **_To be able to run the code all files needed along with the notebook are zipped in the git repo link above.
 Even though all files are included, to run the notebook you just need characters folder, harry_potter_data.csv file and the photos in the folder.

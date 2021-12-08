@@ -216,25 +216,25 @@ These words confirm the minor role Hufflepuff had in the Harry Potter stories an
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
 
-**_Filius Flitwick - Rowena Ravenclaw - Ravenclaw Wizard Duelling Champion_**
+**_Pomona Sprout - Gabriel Truman - Helga Hufflepuff_**
 
-| Word   | TF-IDF score |
-|--------|--------------|
-| Army   | 5.70         |
-| Fought | 5.21         |
-| Dating | 5.00         |
-| Kiss   | 5.00         |
-| Coin   | 5.00         |
+| Word       | TF-IDF score |
+|------------|--------------|
+| Theorem    | 4.96         |
+| Arithmancy | 4.64         |
+| Herbology  | 4.58         |
+| Hogwarts   | 4.34         |
+| Snare      | 4.28         |
 
-**_Luna Lovegood - Xenophilius Lovegood - Marietta Edgecombe_**
+**_Cedric Diggory - Heidi Macavoy - Tamsin Applebee_**
 
-| Word     | TF-IDF score |
-|----------|--------------|
-| Vanity   | 8.50         |
-| Turban   | 7.74         |
-| Annoying | 7.56         |
-| Branagh  | 7.56         |
-| Fame     | 7.21         |
+| Word      | TF-IDF score |
+|-----------|--------------|
+| Maze      | 5.24         |
+| Captained | 4.64         |
+| Egg       | 4.64         |
+| Echo      | 4.28         |
+| Seeker    | 3.84         |
 
 ---
 
@@ -286,25 +286,26 @@ Other noticeable words in the Ravenclaw word cloud:
 
 _The tables show the top words based on their TF-IDF values, for the happiest and saddest communities
 based on the VADER sentiment analysis._
-**_Pomona Sprout - Gabriel Truman - Helga Hufflepuff_**
 
-| Word       | TF-IDF score |
-|------------|--------------|
-| Theorem    | 4.96         |
-| Arithmancy | 4.64         |
-| Herbology  | 4.58         |
-| Hogwarts   | 4.34         |
-| Snare      | 4.28         |
+**_Filius Flitwick - Rowena Ravenclaw - Ravenclaw Wizard Duelling Champion_**
 
-**_Cedric Diggory - Heidi Macavoy - Tamsin Applebee_**
+| Word   | TF-IDF score |
+|--------|--------------|
+| Army   | 5.70         |
+| Fought | 5.21         |
+| Dating | 5.00         |
+| Kiss   | 5.00         |
+| Coin   | 5.00         |
 
-| Word      | TF-IDF score |
-|-----------|--------------|
-| Maze      | 5.24         |
-| Captained | 4.64         |
-| Egg       | 4.64         |
-| Echo      | 4.28         |
-| Seeker    | 3.84         |
+**_Luna Lovegood - Xenophilius Lovegood - Marietta Edgecombe_**
+
+| Word     | TF-IDF score |
+|----------|--------------|
+| Vanity   | 8.50         |
+| Turban   | 7.74         |
+| Annoying | 7.56         |
+| Branagh  | 7.56         |
+| Fame     | 7.21         |
 
 
 ---
